@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de internet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sistema intenet</h1>
+    <h2>Iniciar usuario:</h2>
+    <form>
+        <label for="nombre">nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <label for="contrato">Num contrato:</label>
+        <input type="number" id="contrato" name="contrato">
+    </form>
+        <button onclick="iniciarUsuario()">INICIAR USUARIO</button>
+    <form>
+        <label for="precio">Precio nuevo:</label>
+        <input type="number" id="Precio" >
+    </form>
+        <button onclick="cambiarPrecio()">CAMBIAR</button>
+    <form>
+        <label for="plan">Nuevo plan</label>
+        <input type="text" id="plan" >
+    </form>
+        <button onclick="CambiarPlan()">CAMBIAR</button>
+
+        <h3 id = "info"></h3>
+
+    
+    <script src="java.js"></script>
+</body>
+</html>
